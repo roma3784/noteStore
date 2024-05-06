@@ -14,7 +14,7 @@ export class Assertions {
 	}
 
 	public async expectToContain(actual: string | string[], expected: string, isStrict = false): Promise<void> {
-		await test.step(`Expect value: "${JSON.stringify(actual)}" to contain Value: "${JSON.stringify(expected)}"`, async () => {
+		await test.step(`Expect value: "${actual}" to contain Value: "${expected}"`, async () => {
 			if (!isStrict) {
 				await expect.soft(actual).toContain(expected);
 			} else {
