@@ -8,7 +8,7 @@
 
 1. Before running the automation tests, need to clone remote repository to your local machine:
 
-- Run "git clone git@" command
+- Run "git clone https://github.com/roma3784/noteStore.git" command
 
 2. Then need to set up all needed packages:
 
